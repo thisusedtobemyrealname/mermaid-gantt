@@ -28,20 +28,20 @@ gantt
     todayMarker off
 
     section Prerequisites
-    Verify DB Inventory & Data Sources :active, prereq, 2025-11-01, 16d
-    Task Delegation & Reporting :crit, delegation, 2025-11-17, 3d
+    Verify DB Inventory & Data Sources:active, prereq, 2025-11-01, 16d
+    Task Delegation & Reporting:crit, delegation, 2025-11-17, 3d
 
     section Step 2: Environment Setup
-    Tools & Access Setup :setup-tools, 2025-11-17, 2d
-    Database Structure in Postgres :setup-db, 2025-11-17, 4d
-    Sample Data Extraction :setup-data, 2025-11-17, 3d
+    Tools & Access Setup:setup-tools, 2025-11-17, 2d
+    Database Structure in Postgres:setup-db, 2025-11-17, 4d
+    Sample Data Extraction:setup-data, 2025-11-17, 3d
 
     section Step 3: Mirroring
-    Migration & Replication :mirr-mig, 2025-11-25, 5d
-    Stored Procedures Replication :mirr-proc, 2025-12-01, 2d
+    Migration & Replication:mirr-mig, 2025-11-25, 5d
+    Stored Procedures Replication:mirr-proc, 2025-12-01, 2d
 
     section Step 4: Validation
-    Run Procedure in Oracle (Result A) :val-oracle, 2025-12-03, 1d
-    Run Migrated Procedure in Postgres (Result B) :val-postgres, 2025-12-03, 1d
-    Compare Results & Sign-off :val-compare, 2025-12-04, 1d
+    Run Procedure in Oracle (Result A):val-oracle, 2025-12-03, 1d
+    Run Migrated Procedure in Postgres (Result B):val-postgres, 2025-12-03, 1d
+    Compare Results & Sign-off:val-compare, 2025-12-04, 1d
 ```
